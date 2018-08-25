@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: url(../background.jpg);
+	background-repeat: repeat-y;
+	background-color:#000;
+	background-attachment: fixed;
+	background-position: fixed;
+	background-position: center;
+	border: 0;
+	margin: 0;
+}
+#menu {
+    width: 250px;
+    overflow: auto;
+    top: 0;
+    bottom: 0;
+    left: 200px;
+    position: fixed;
+    height: 100%;
+    background-color: #fff;
+}
+
+#menu ul {
+	list-style: none;
+}
+.container {
+    padding: 25px;
+   
+}
+#content {
+	width:600px;
+	overflow: auto;
+	top: 0;
+	bottom: 0px;
+	height: auto;
+	margin-left: 440px;
+	position: fixed;
+	background-color:#FFF;
+
+}
+
+
+li {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align: right;
+	line-height: 20px;
+	}
+a img {border: none;}
+a:link {color:#000; text-decoration: none;}      /* unvisited link */
+a:visited {color:#000;}  /* visited link */
+a:hover {color:#000; text-transform: uppercase; font-family: andale mono; font-size: 14px; }  /* mouse over link */
+a:active {color:#000;}  /* selected link */
+h1 {
+	font-family: andale mono, helvetica, arial, verdana, sans-serif;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 100;
+	background-color: #92a7a0;
+	height: 15px;
+	color: white;
+	padding: 0 5px;
+	margin: 0;
+	text-align: left;
+	border: 0;
+}
+h2 {
+	font-family: andale mono, helvetica, arial, verdana, sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 100;
+	line-height: 5px;
+	letter-spacing: 2px;
+	background-color: #FFC;
+	color: #000;
+	height: 5px;
+	padding: 0 5px;
+	margin: 0;
+	text-align: left;
+	border: 0;
+}
+p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 13px;
+	padding: 0;
+	margin: 20px;
+}
+p.caption {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	background-color:#fff;
+	width: 480px;
+	padding-top: 10px;
+}
+p.copy {
+	font-family: andale mono, helvetica, arial, verdana, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: center;
+	background-color:#fff;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
